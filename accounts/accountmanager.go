@@ -7,6 +7,7 @@ import (
 	"regexp"
 )
 
+var Accounts []string
 var accountRegex = "^[a-zA-Z0-9]{3,20}:[a-zA-Z0-9]{3,20}$"
 
 // Load is a function to load each line of filepath into a slice of strings
@@ -24,6 +25,7 @@ func Load(filepath string) []string {
 	if err := scanner.Err(); err != nil {
 		log.Fatal(err)
 	}
+	Accounts = accounts
 	return accounts
 }
 
