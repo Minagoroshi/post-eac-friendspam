@@ -13,7 +13,7 @@ I wish to preface this by saying, that I am making this --> SIMPLE <-- script pu
 5. 😁
 
 ## Proxies
-- Proxies are optional but reccomended as they will prevent your main account from being banned, and you can send more than 4 requests at a time
+- Proxies are optional but recommended as they will prevent your main account from being banned, and you can send more than 4 requests at a time
 
 ## Accounts
 - Accounts should be structured as a wordlist, meaning each account string should be on a new line
